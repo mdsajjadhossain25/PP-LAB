@@ -88,7 +88,7 @@ int main(int argc, char **argv) {
     double start, end;
 
     if (rank == 0) {
-        vector<string> files(argv + 1, argv + argc - 1);
+        vector<string> files(argv + 1, argv + argc - 1); // if multiple files are passed
         vector<Contact> contacts;
         read_phonebook(files, contacts);
         int total = contacts.size();
