@@ -1,0 +1,32 @@
+# Object files
+*.o
+*.obj
+
+# Executables (Linux/macOS)
+*.out
+a.out
+a.exe
+*.exe
+
+# Executables (named binaries)
+# Add your binary names here
+your_binary_name
+
+# Shared libraries
+*.so
+*.dylib
+
+# Static libraries
+*.a
+*.lib
+
+# Core dumps
+core
+
+# MPI-generated files (if any temporary logs or outputs)
+*.log
+*.tmp
+
+# IDE or build system folders (optional)
+build/
+bin/
